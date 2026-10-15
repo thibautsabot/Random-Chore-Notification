@@ -1,0 +1,12 @@
+Notificação de tarefa aleatória escolhe uma tarefa pequena da sua própria lista e insiste para você fazê-la em momentos aleatórios do dia.
+
+• Crie sua lista de tarefas e escolha quantas receber por dia
+• Defina os horários e os dias ativos
+• Tela de tarefa em tela cheia com botão Iniciar e contagem regressiva: «Concluído» só é liberado quando o tempo realmente passou
+• Peça outra tarefa ou adie por 10 minutos
+• Acompanhe as tarefas de hoje e sua sequência diária
+• Pause por uma hora a partir de um atalho do launcher
+• Exporte e importe sua lista de tarefas
+• Funciona offline: sem conta, sem anúncios, sem rastreamento, sem permissão de Internet
+
+Para que os lembretes cheguem no horário e abram sozinhos, o app pede alarmes exatos, notificações em tela cheia, exibição sobre outros apps e isenção da otimização de bateria. Você pode concedê-los na seção «Finish setup».

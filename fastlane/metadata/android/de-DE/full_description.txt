@@ -1,0 +1,12 @@
+Zufällige Aufgabenerinnerung wählt eine kleine Aufgabe aus deiner eigenen Liste und erinnert dich zu zufälligen Zeitpunkten am Tag daran, sie zu erledigen.
+
+• Eigene Aufgabenliste und frei wählbare Anzahl an Aufgaben pro Tag
+• Aktive Uhrzeiten und aktive Wochentage einstellbar
+• Vollbild-Aufgabe mit Start-Knopf und Countdown: „Fertig“ wird erst freigeschaltet, wenn die Zeit wirklich vergangen ist
+• Andere Aufgabe anfordern oder um 10 Minuten verschieben
+• Erledigte Aufgaben heute und tägliche Serie im Blick
+• Eine Stunde pausieren über eine Verknüpfung im Launcher
+• Aufgabenliste exportieren und importieren
+• Funktioniert offline: kein Konto, keine Werbung, kein Tracking, keine Internet-Berechtigung
+
+Damit Erinnerungen pünktlich ankommen und sich von selbst öffnen, fragt die App nach exakten Alarmen, Vollbild-Benachrichtigungen, Anzeige über anderen Apps und einer Ausnahme von der Akkuoptimierung. Du kannst sie im Bereich „Finish setup“ erteilen.

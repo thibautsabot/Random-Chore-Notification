@@ -1,0 +1,12 @@
+Notificación de tarea aleatoria elige una tarea pequeña de tu propia lista y te insiste para que la hagas en momentos aleatorios del día.
+
+• Crea tu lista de tareas y elige cuántas recibes al día
+• Define las horas y los días activos
+• Pantalla de tarea a pantalla completa con botón Empezar y cuenta atrás: «Hecho» solo se desbloquea cuando ha pasado el tiempo
+• Pide otra tarea o pospón 10 minutos
+• Consulta las tareas de hoy y tu racha diaria
+• Pausa de una hora desde un acceso directo del launcher
+• Exporta e importa tu lista de tareas
+• Funciona sin conexión: sin cuenta, sin anuncios, sin seguimiento, sin permiso de Internet
+
+Para que los recordatorios lleguen a tiempo y se abran solos, la app pide alarmas exactas, notificaciones a pantalla completa, mostrarse sobre otras apps y una exención de la optimización de batería. Puedes concederlos desde la sección «Finish setup».

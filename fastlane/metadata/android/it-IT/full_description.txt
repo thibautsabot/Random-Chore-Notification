@@ -1,0 +1,12 @@
+Notifica di faccenda casuale sceglie una piccola faccenda dalla tua lista e ti sollecita a farla in momenti casuali della giornata.
+
+• Crea la tua lista di faccende e scegli quante riceverne al giorno
+• Imposta orari e giorni attivi
+• Schermata a tutto schermo con pulsante Inizia e conto alla rovescia: «Fatto» si sblocca solo quando il tempo è davvero trascorso
+• Chiedi un'altra faccenda o rimanda di 10 minuti
+• Controlla le faccende di oggi e la serie giornaliera
+• Pausa di un'ora da una scorciatoia del launcher
+• Esporta e importa la tua lista
+• Funziona offline: nessun account, nessuna pubblicità, nessun tracciamento, nessun permesso Internet
+
+Perché i promemoria arrivino in orario e si aprano da soli, l'app richiede sveglie esatte, notifiche a schermo intero, la visualizzazione sopra altre app e l'esclusione dall'ottimizzazione della batteria. Puoi concederle dalla sezione «Finish setup».
