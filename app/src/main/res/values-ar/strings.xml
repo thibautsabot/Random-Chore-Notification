@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">إشعار مهمة عشوائية</string>
+    <string name="title_main">إشعار
+مهمة عشوائية</string>
+    <string name="subtitle">مهام صغيرة، دفعة كبيرة.</string>
+    <string name="section_setup">أكمل الإعداد</string>
+    <string name="section_chores">المهام</string>
+    <string name="section_schedule">الجدول</string>
+    <string name="next_chore">المهمة التالية: %1$s</string>
+    <string name="nothing_scheduled">لا شيء مجدول</string>
+    <string name="today">اليوم</string>
+    <string name="tomorrow">غدًا</string>
+    <plurals name="stat_today">
+        <item quantity="zero">المنجز اليوم: %1$d</item>
+        <item quantity="one">المنجز اليوم: %1$d</item>
+        <item quantity="two">المنجز اليوم: %1$d</item>
+        <item quantity="few">المنجز اليوم: %1$d</item>
+        <item quantity="many">المنجز اليوم: %1$d</item>
+        <item quantity="other">المنجز اليوم: %1$d</item>
+    </plurals>
+    <string name="stat_streak">تتابع %1$d أيام</string>
+    <string name="setup_overlay">فتح المهام تلقائيًا</string>
+    <string name="setup_battery">إبقاء المنبهات موثوقة</string>
+    <string name="fix">إصلاح</string>
+    <string name="hint_chore">ماذا يجب أن تفعل؟</string>
+    <string name="add_chore">+  إضافة مهمة</string>
+    <string name="export_chores">تصدير</string>
+    <string name="import_chores">استيراد</string>
+    <string name="exported">تم تصدير المهام</string>
+    <plurals name="imported">
+        <item quantity="zero">عدد المهام المستوردة: %1$d. اضغط على «حفظ وجدولة» للاحتفاظ بها.</item>
+        <item quantity="one">عدد المهام المستوردة: %1$d. اضغط على «حفظ وجدولة» للاحتفاظ بها.</item>
+        <item quantity="two">عدد المهام المستوردة: %1$d. اضغط على «حفظ وجدولة» للاحتفاظ بها.</item>
+        <item quantity="few">عدد المهام المستوردة: %1$d. اضغط على «حفظ وجدولة» للاحتفاظ بها.</item>
+        <item quantity="many">عدد المهام المستوردة: %1$d. اضغط على «حفظ وجدولة» للاحتفاظ بها.</item>
+        <item quantity="other">عدد المهام المستوردة: %1$d. اضغط على «حفظ وجدولة» للاحتفاظ بها.</item>
+    </plurals>
+    <string name="export_failed">تعذّر حفظ ملف المهام</string>
+    <string name="schedule_restored">تم اكتشاف تذكير فائت. تمت استعادة الجدول.</string>
+    <string name="import_failed">تعذّرت قراءة أي مهام من هذا الملف</string>
+    <string name="resume">استئناف</string>
+    <string name="paused_until">متوقف مؤقتًا حتى %1$s</string>
+    <string name="paused_toast">تم الإيقاف المؤقت لمدة ساعة. ستُستأنف المهام عند %1$s.</string>
+    <string name="shortcut_test">اختبر الآن</string>
+    <string name="shortcut_pause">إيقاف ساعة</string>
+    <string name="shortcut_pause_long">إيقاف المهام مؤقتًا لمدة ساعة</string>
+    <string name="shortcut_add">إضافة مهمة</string>
+    <string name="chore_deleted">تم حذف المهمة</string>
+    <string name="undo">تراجع</string>
+    <string name="unit_seconds">ث</string>
+    <string name="unit_seconds_desc">ثوانٍ</string>
+    <string name="remove_chore_desc">حذف المهمة</string>
+    <string name="day_on">مفعّل</string>
+    <string name="day_off">غير مفعّل</string>
+    <string-array name="days_full">
+        <item>الاثنين</item>
+        <item>الثلاثاء</item>
+        <item>الأربعاء</item>
+        <item>الخميس</item>
+        <item>الجمعة</item>
+        <item>السبت</item>
+        <item>الأحد</item>
+    </string-array>
+    <string name="chores_per_day">المهام في اليوم</string>
+    <string name="active_from">النشاط من</string>
+    <string name="active_until">النشاط حتى</string>
+    <string name="active_days">أيام النشاط</string>
+    <string name="sound_vibration">الصوت والاهتزاز</string>
+    <string name="save">حفظ وجدولة</string>
+    <string name="test_now">اختبر الآن (مهمة 10 ثوانٍ)</string>
+    <string name="test_chore">مهمة تجريبية</string>
+    <string name="stop">إيقاف الكل</string>
+    <plurals name="saved_toast">
+        <item quantity="zero">تم الحفظ. المهام يوميًا: %1$d، من %2$s إلى %3$s</item>
+        <item quantity="one">تم الحفظ. المهام يوميًا: %1$d، من %2$s إلى %3$s</item>
+        <item quantity="two">تم الحفظ. المهام يوميًا: %1$d، من %2$s إلى %3$s</item>
+        <item quantity="few">تم الحفظ. المهام يوميًا: %1$d، من %2$s إلى %3$s</item>
+        <item quantity="many">تم الحفظ. المهام يوميًا: %1$d، من %2$s إلى %3$s</item>
+        <item quantity="other">تم الحفظ. المهام يوميًا: %1$d، من %2$s إلى %3$s</item>
+    </plurals>
+    <string name="stop_confirm_title">إيقاف الكل؟</string>
+    <string name="stop_confirm_message">سيؤدي هذا إلى إلغاء جميع المهام المجدولة والمهمة الجارية. اضغط على «حفظ وجدولة» للبدء من جديد.</string>
+    <string name="stop_confirm_yes">إيقاف</string>
+    <string name="stopped">تم الإيقاف</string>
+    <string-array name="days_short">
+        <item>ن</item>
+        <item>ث</item>
+        <item>ر</item>
+        <item>خ</item>
+        <item>ج</item>
+        <item>س</item>
+        <item>ح</item>
+    </string-array>
+    <string name="do_it_now">افعلها الآن</string>
+    <string name="start">ابدأ</string>
+    <string name="done">تم ✔</string>
+    <string name="nice_done">أحسنت، تم ✔</string>
+    <string name="too_early">مبكر جدًا</string>
+    <string name="snooze">لا أستطيع الآن حقًا</string>
+    <string name="snoozed">حسنًا، بعد 10 دقائق</string>
+    <string name="seconds_fmt">%1$d ث</string>
+    <string name="hint_start">اضغط على «ابدأ» عندما تبدأ</string>
+    <string name="hint_keep_going">واصل</string>
+    <string name="hint_times_up">انتهى الوقت. هل أنجزتها؟</string>
+    <string name="skip">أعطني مهمة أخرى</string>
+    <string name="no_other_chore">لا توجد مهمة أخرى في قائمتك</string>
+    <string-array name="praise">
+        <item>رائع!</item>
+        <item>أحسنت!</item>
+        <item>أنجزتها!</item>
+        <item>هذه هي الروح!</item>
+        <item>ممتاز!</item>
+    </string-array>
+    <string name="channel_alert">تذكيرات المهام</string>
+    <string name="channel_quiet">العد التنازلي للمهمة</string>
+    <string name="notif_title">افعلها الآن</string>
+    <string name="notif_start_text">%1$s. اضغط على «ابدأ» ثم نفّذها لمدة %2$d ث</string>
+    <string name="notif_countdown_text">%1$s. يُتاح «تم» عند انتهاء المؤقت</string>
+    <string name="notif_ready_text">%1$s. اضغط على «تم» عند الانتهاء</string>
+</resources>

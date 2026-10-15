@@ -1,0 +1,12 @@
+Notification de corvée aléatoire choisit une petite corvée dans votre propre liste et vous relance pour la faire à des moments aléatoires de la journée.
+
+• Créez votre liste de corvées et choisissez combien vous en recevez par jour
+• Réglez les heures et les jours actifs
+• Écran de corvée plein écran avec bouton Démarrer et compte à rebours : « Terminé » ne se débloque qu'une fois le temps écoulé
+• Passez à une autre corvée, ou reportez de 10 minutes
+• Suivez vos corvées du jour et votre série quotidienne
+• Mettez en pause une heure depuis un raccourci du lanceur
+• Exportez et importez votre liste de corvées
+• Fonctionne hors ligne : pas de compte, pas de publicité, pas de suivi, pas de permission Internet
+
+Pour que les rappels arrivent à l'heure et s'ouvrent seuls, l'application demande les alarmes exactes, les notifications plein écran, l'affichage par-dessus les autres applications et une exemption d'optimisation de batterie. Vous pouvez les accorder depuis la section « Finish setup ».

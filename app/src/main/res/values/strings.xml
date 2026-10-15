@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Random Chore Notification</string>
+
+    <!-- Settings screen -->
+    <string name="title_main">Random Chore\nNotification</string>
+    <string name="subtitle">Small tasks, big gains.</string>
+    <string name="section_setup">Finish setup</string>
+    <string name="section_chores">Chores</string>
+    <string name="section_schedule">Schedule</string>
+    <string name="next_chore">Next chore: %1$s</string>
+    <string name="nothing_scheduled">nothing scheduled</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <plurals name="stat_today">
+        <item quantity="one">%1$d done today</item>
+        <item quantity="other">%1$d done today</item>
+    </plurals>
+    <string name="stat_streak">%1$d-day streak</string>
+    <string name="setup_overlay">Open chores automatically</string>
+    <string name="setup_battery">Keep alarms reliable</string>
+    <string name="fix">Fix</string>
+    <string name="hint_chore">What should you do?</string>
+    <string name="add_chore">+  Add chore</string>
+    <string name="export_chores">Export</string>
+    <string name="import_chores">Import</string>
+    <string name="exported">Chores exported</string>
+    <plurals name="imported">
+        <item quantity="one">Imported %1$d chore. Tap Save &amp; schedule to keep it.</item>
+        <item quantity="other">Imported %1$d chores. Tap Save &amp; schedule to keep them.</item>
+    </plurals>
+    <string name="export_failed">Couldn\'t save the chores file</string>
+    <string name="schedule_restored">A missed reminder was detected. Schedule restored.</string>
+    <string name="import_failed">Couldn\'t read any chores from that file</string>
+    <string name="resume">Resume</string>
+    <string name="paused_until">Paused until %1$s</string>
+    <string name="paused_toast">Paused for 1 hour. Chores resume at %1$s.</string>
+    <string name="shortcut_test">Test now</string>
+    <string name="shortcut_pause">Pause 1 hour</string>
+    <string name="shortcut_pause_long">Pause chores for 1 hour</string>
+    <string name="shortcut_add">Add chore</string>
+    <string name="chore_deleted">Chore deleted</string>
+    <string name="undo">UNDO</string>
+    <string name="unit_seconds">s</string>
+    <string name="unit_seconds_desc">seconds</string>
+    <string name="remove_chore_desc">Delete chore</string>
+    <string name="day_on">Active</string>
+    <string name="day_off">Not active</string>
+    <string-array name="days_full">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+    <string name="chores_per_day">Chores per day</string>
+    <string name="active_from">Active from</string>
+    <string name="active_until">Active until</string>
+    <string name="active_days">Active days</string>
+    <string name="sound_vibration">Sound &amp; vibration</string>
+    <string name="save">Save &amp; schedule</string>
+    <string name="test_now">Test now (10 s chore)</string>
+    <string name="test_chore">Test chore</string>
+    <string name="stop">Stop everything</string>
+    <plurals name="saved_toast">
+        <item quantity="one">Saved. %1$d chore a day, %2$s to %3$s</item>
+        <item quantity="other">Saved. %1$d chores a day, %2$s to %3$s</item>
+    </plurals>
+    <string name="stop_confirm_title">Stop everything?</string>
+    <string name="stop_confirm_message">This cancels all scheduled chores and the one in progress. Tap Save &amp; schedule to start again.</string>
+    <string name="stop_confirm_yes">Stop</string>
+    <string name="stopped">Stopped</string>
+    <string-array name="days_short">
+        <item>M</item>
+        <item>T</item>
+        <item>W</item>
+        <item>T</item>
+        <item>F</item>
+        <item>S</item>
+        <item>S</item>
+    </string-array>
+
+    <!-- Chore screen -->
+    <string name="do_it_now">DO IT NOW</string>
+    <string name="start">Start</string>
+    <string name="done">Done ✔</string>
+    <string name="nice_done">Nice, done ✔</string>
+    <string name="too_early">Too early</string>
+    <string name="snooze">I really can\'t right now</string>
+    <string name="snoozed">OK, back in 10 min</string>
+    <string name="number_fmt" translatable="false">%1$d</string>
+    <string name="timer_fmt" translatable="false">%1$d:%2$02d</string>
+    <string name="seconds_fmt">%1$ds</string>
+    <string name="hint_start">Tap Start when you begin</string>
+    <string name="hint_keep_going">Keep going</string>
+    <string name="hint_times_up">Time\'s up. Did you do it?</string>
+
+    <string name="skip">Give me another one</string>
+    <string name="no_other_chore">No other chore in your list</string>
+    <string-array name="praise">
+        <item>Nice!</item>
+        <item>Well done!</item>
+        <item>Nailed it!</item>
+        <item>That\'s the spirit!</item>
+        <item>Crushed it!</item>
+    </string-array>
+
+    <!-- Fallback notification -->
+    <string name="channel_alert">Chore reminders</string>
+    <string name="channel_quiet">Chore countdown</string>
+    <string name="notif_title">Do it now</string>
+    <string name="notif_start_text">%1$s. Tap Start, then do it for %2$d s</string>
+    <string name="notif_countdown_text">%1$s. Done unlocks when the timer ends</string>
+    <string name="notif_ready_text">%1$s. Tap Done when finished</string>
+</resources>

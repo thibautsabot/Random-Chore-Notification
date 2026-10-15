@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Случайное напоминание о делах</string>
+    <string name="title_main">Случайное
+напоминание о делах</string>
+    <string name="subtitle">Маленькие дела, большие толчки.</string>
+    <string name="section_setup">Завершите настройку</string>
+    <string name="section_chores">Дела</string>
+    <string name="section_schedule">Расписание</string>
+    <string name="next_chore">Следующее дело: %1$s</string>
+    <string name="nothing_scheduled">ничего не запланировано</string>
+    <string name="today">Сегодня</string>
+    <string name="tomorrow">Завтра</string>
+    <plurals name="stat_today">
+        <item quantity="one">Сегодня выполнено: %1$d</item>
+        <item quantity="few">Сегодня выполнено: %1$d</item>
+        <item quantity="many">Сегодня выполнено: %1$d</item>
+        <item quantity="other">Сегодня выполнено: %1$d</item>
+    </plurals>
+    <string name="stat_streak">Серия: %1$d дн.</string>
+    <string name="setup_overlay">Открывать дела автоматически</string>
+    <string name="setup_battery">Надёжная работа будильников</string>
+    <string name="fix">Исправить</string>
+    <string name="hint_chore">Что нужно сделать?</string>
+    <string name="add_chore">+  Добавить дело</string>
+    <string name="export_chores">Экспорт</string>
+    <string name="import_chores">Импорт</string>
+    <string name="exported">Дела экспортированы</string>
+    <plurals name="imported">
+        <item quantity="one">Импортировано %1$d дело. Нажмите «Сохранить и запланировать», чтобы сохранить его.</item>
+        <item quantity="few">Импортировано %1$d дела. Нажмите «Сохранить и запланировать», чтобы сохранить их.</item>
+        <item quantity="many">Импортировано %1$d дел. Нажмите «Сохранить и запланировать», чтобы сохранить их.</item>
+        <item quantity="other">Импортировано %1$d дела. Нажмите «Сохранить и запланировать», чтобы сохранить их.</item>
+    </plurals>
+    <string name="export_failed">Не удалось сохранить файл с делами</string>
+    <string name="schedule_restored">Обнаружено пропущенное напоминание. Расписание восстановлено.</string>
+    <string name="import_failed">Не удалось прочитать дела из этого файла</string>
+    <string name="resume">Возобновить</string>
+    <string name="paused_until">Пауза до %1$s</string>
+    <string name="paused_toast">Пауза на 1 час. Дела возобновятся в %1$s.</string>
+    <string name="shortcut_test">Проверить сейчас</string>
+    <string name="shortcut_pause">Пауза на 1 час</string>
+    <string name="shortcut_pause_long">Приостановить дела на 1 час</string>
+    <string name="shortcut_add">Добавить дело</string>
+    <string name="chore_deleted">Дело удалено</string>
+    <string name="undo">ОТМЕНИТЬ</string>
+    <string name="unit_seconds">с</string>
+    <string name="unit_seconds_desc">секунд</string>
+    <string name="remove_chore_desc">Удалить дело</string>
+    <string name="day_on">Включён</string>
+    <string name="day_off">Выключен</string>
+    <string-array name="days_full">
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+        <item>Воскресенье</item>
+    </string-array>
+    <string name="chores_per_day">Дел в день</string>
+    <string name="active_from">Активно с</string>
+    <string name="active_until">Активно до</string>
+    <string name="active_days">Активные дни</string>
+    <string name="sound_vibration">Звук и вибрация</string>
+    <string name="save">Сохранить и запланировать</string>
+    <string name="test_now">Проверить сейчас (дело на 10 с)</string>
+    <string name="test_chore">Тестовое дело</string>
+    <string name="stop">Остановить всё</string>
+    <plurals name="saved_toast">
+        <item quantity="one">Сохранено. %1$d дело в день, с %2$s до %3$s</item>
+        <item quantity="few">Сохранено. %1$d дела в день, с %2$s до %3$s</item>
+        <item quantity="many">Сохранено. %1$d дел в день, с %2$s до %3$s</item>
+        <item quantity="other">Сохранено. %1$d дела в день, с %2$s до %3$s</item>
+    </plurals>
+    <string name="stop_confirm_title">Остановить всё?</string>
+    <string name="stop_confirm_message">Это отменит все запланированные дела и текущее дело. Нажмите «Сохранить и запланировать», чтобы начать заново.</string>
+    <string name="stop_confirm_yes">Остановить</string>
+    <string name="stopped">Остановлено</string>
+    <string-array name="days_short">
+        <item>П</item>
+        <item>В</item>
+        <item>С</item>
+        <item>Ч</item>
+        <item>П</item>
+        <item>С</item>
+        <item>В</item>
+    </string-array>
+    <string name="do_it_now">СДЕЛАЙТЕ СЕЙЧАС</string>
+    <string name="start">Начать</string>
+    <string name="done">Готово ✔</string>
+    <string name="nice_done">Отлично, готово ✔</string>
+    <string name="too_early">Слишком рано</string>
+    <string name="snooze">Сейчас правда не могу</string>
+    <string name="snoozed">Хорошо, вернусь через 10 мин</string>
+    <string name="seconds_fmt">%1$d с</string>
+    <string name="hint_start">Нажмите «Начать», когда приступите</string>
+    <string name="hint_keep_going">Продолжайте</string>
+    <string name="hint_times_up">Время вышло. Вы сделали это?</string>
+    <string name="skip">Дайте другое</string>
+    <string name="no_other_chore">В вашем списке нет других дел</string>
+    <string-array name="praise">
+        <item>Отлично!</item>
+        <item>Молодец!</item>
+        <item>Получилось!</item>
+        <item>Так держать!</item>
+        <item>Блестяще!</item>
+    </string-array>
+    <string name="channel_alert">Напоминания о делах</string>
+    <string name="channel_quiet">Обратный отсчёт дела</string>
+    <string name="notif_title">Сделайте сейчас</string>
+    <string name="notif_start_text">%1$s. Нажмите «Начать» и делайте %2$d с</string>
+    <string name="notif_countdown_text">%1$s. Кнопка «Готово» откроется, когда закончится таймер</string>
+    <string name="notif_ready_text">%1$s. Нажмите «Готово», когда закончите</string>
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">रैंडम काम की सूचना</string>
+    <string name="title_main">रैंडम काम
+की सूचना</string>
+    <string name="subtitle">छोटे काम, बड़ी प्रेरणा।</string>
+    <string name="section_setup">सेटअप पूरा करें</string>
+    <string name="section_chores">काम</string>
+    <string name="section_schedule">समय-सारणी</string>
+    <string name="next_chore">अगला काम: %1$s</string>
+    <string name="nothing_scheduled">कुछ निर्धारित नहीं</string>
+    <string name="today">आज</string>
+    <string name="tomorrow">कल</string>
+    <plurals name="stat_today">
+        <item quantity="one">आज %1$d पूरा हुआ</item>
+        <item quantity="other">आज %1$d पूरे हुए</item>
+    </plurals>
+    <string name="stat_streak">लगातार %1$d दिन</string>
+    <string name="setup_overlay">काम अपने आप खोलें</string>
+    <string name="setup_battery">अलार्म भरोसेमंद रखें</string>
+    <string name="fix">ठीक करें</string>
+    <string name="hint_chore">आपको क्या करना है?</string>
+    <string name="add_chore">+  काम जोड़ें</string>
+    <string name="export_chores">निर्यात</string>
+    <string name="import_chores">आयात</string>
+    <string name="exported">काम निर्यात किए गए</string>
+    <plurals name="imported">
+        <item quantity="one">%1$d काम आयात किया गया। इसे रखने के लिए “सहेजें और शेड्यूल करें” पर टैप करें।</item>
+        <item quantity="other">%1$d काम आयात किए गए। इन्हें रखने के लिए “सहेजें और शेड्यूल करें” पर टैप करें।</item>
+    </plurals>
+    <string name="export_failed">काम की फ़ाइल सहेजी नहीं जा सकी</string>
+    <string name="schedule_restored">छूटा हुआ रिमाइंडर मिला। समय-सारणी बहाल कर दी गई।</string>
+    <string name="import_failed">उस फ़ाइल से कोई काम पढ़ा नहीं जा सका</string>
+    <string name="resume">फिर शुरू करें</string>
+    <string name="paused_until">%1$s तक रुका हुआ</string>
+    <string name="paused_toast">1 घंटे के लिए रोका गया। काम %1$s पर फिर शुरू होंगे।</string>
+    <string name="shortcut_test">अभी जाँचें</string>
+    <string name="shortcut_pause">1 घंटा रोकें</string>
+    <string name="shortcut_pause_long">काम 1 घंटे के लिए रोकें</string>
+    <string name="shortcut_add">काम जोड़ें</string>
+    <string name="chore_deleted">काम हटाया गया</string>
+    <string name="undo">पूर्ववत करें</string>
+    <string name="unit_seconds">से.</string>
+    <string name="unit_seconds_desc">सेकंड</string>
+    <string name="remove_chore_desc">काम हटाएँ</string>
+    <string name="day_on">चालू</string>
+    <string name="day_off">बंद</string>
+    <string-array name="days_full">
+        <item>सोमवार</item>
+        <item>मंगलवार</item>
+        <item>बुधवार</item>
+        <item>गुरुवार</item>
+        <item>शुक्रवार</item>
+        <item>शनिवार</item>
+        <item>रविवार</item>
+    </string-array>
+    <string name="chores_per_day">प्रतिदिन काम</string>
+    <string name="active_from">शुरू होने का समय</string>
+    <string name="active_until">समाप्ति का समय</string>
+    <string name="active_days">सक्रिय दिन</string>
+    <string name="sound_vibration">ध्वनि और कंपन</string>
+    <string name="save">सहेजें और शेड्यूल करें</string>
+    <string name="test_now">अभी जाँचें (10 सेकंड का काम)</string>
+    <string name="test_chore">परीक्षण काम</string>
+    <string name="stop">सब बंद करें</string>
+    <plurals name="saved_toast">
+        <item quantity="one">सहेजा गया। प्रतिदिन %1$d काम, %2$s से %3$s</item>
+        <item quantity="other">सहेजा गया। प्रतिदिन %1$d काम, %2$s से %3$s</item>
+    </plurals>
+    <string name="stop_confirm_title">सब बंद करें?</string>
+    <string name="stop_confirm_message">इससे सभी निर्धारित काम और चल रहा काम रद्द हो जाएँगे। दोबारा शुरू करने के लिए “सहेजें और शेड्यूल करें” पर टैप करें।</string>
+    <string name="stop_confirm_yes">बंद करें</string>
+    <string name="stopped">बंद किया गया</string>
+    <string-array name="days_short">
+        <item>सो</item>
+        <item>मं</item>
+        <item>बु</item>
+        <item>गु</item>
+        <item>शु</item>
+        <item>श</item>
+        <item>र</item>
+    </string-array>
+    <string name="do_it_now">अभी करें</string>
+    <string name="start">शुरू करें</string>
+    <string name="done">हो गया ✔</string>
+    <string name="nice_done">बढ़िया, हो गया ✔</string>
+    <string name="too_early">बहुत जल्दी</string>
+    <string name="snooze">अभी सच में नहीं हो पाएगा</string>
+    <string name="snoozed">ठीक है, 10 मिनट में फिर</string>
+    <string name="seconds_fmt">%1$d से.</string>
+    <string name="hint_start">शुरू करते समय “शुरू करें” पर टैप करें</string>
+    <string name="hint_keep_going">लगे रहिए</string>
+    <string name="hint_times_up">समय समाप्त। क्या आपने कर लिया?</string>
+    <string name="skip">कोई और दें</string>
+    <string name="no_other_chore">आपकी सूची में कोई और काम नहीं है</string>
+    <string-array name="praise">
+        <item>बढ़िया!</item>
+        <item>शाबाश!</item>
+        <item>कमाल कर दिया!</item>
+        <item>यही जज़्बा!</item>
+        <item>जबरदस्त!</item>
+    </string-array>
+    <string name="channel_alert">काम के रिमाइंडर</string>
+    <string name="channel_quiet">काम की उल्टी गिनती</string>
+    <string name="notif_title">अभी करें</string>
+    <string name="notif_start_text">%1$s। “शुरू करें” पर टैप करें, फिर %2$d सेकंड तक करें</string>
+    <string name="notif_countdown_text">%1$s। टाइमर खत्म होने पर “हो गया” खुलेगा</string>
+    <string name="notif_ready_text">%1$s। पूरा होने पर “हो गया” पर टैप करें</string>
+</resources>

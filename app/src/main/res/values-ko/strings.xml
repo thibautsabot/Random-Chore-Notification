@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">무작위 집안일 알림</string>
+    <string name="title_main">무작위
+집안일 알림</string>
+    <string name="subtitle">작은 일, 큰 동기부여.</string>
+    <string name="section_setup">설정 완료하기</string>
+    <string name="section_chores">집안일</string>
+    <string name="section_schedule">일정</string>
+    <string name="next_chore">다음 집안일: %1$s</string>
+    <string name="nothing_scheduled">예정된 항목 없음</string>
+    <string name="today">오늘</string>
+    <string name="tomorrow">내일</string>
+    <plurals name="stat_today">
+        <item quantity="other">오늘 %1$d개 완료</item>
+    </plurals>
+    <string name="stat_streak">%1$d일 연속</string>
+    <string name="setup_overlay">집안일 자동으로 열기</string>
+    <string name="setup_battery">알람을 안정적으로 유지</string>
+    <string name="fix">해결</string>
+    <string name="hint_chore">무엇을 해야 하나요?</string>
+    <string name="add_chore">+  집안일 추가</string>
+    <string name="export_chores">내보내기</string>
+    <string name="import_chores">가져오기</string>
+    <string name="exported">집안일을 내보냈습니다</string>
+    <plurals name="imported">
+        <item quantity="other">집안일 %1$d개를 가져왔습니다. 유지하려면 저장 및 일정 등록을 누르세요.</item>
+    </plurals>
+    <string name="export_failed">집안일 파일을 저장할 수 없습니다</string>
+    <string name="schedule_restored">놓친 알림이 감지되어 일정을 복원했습니다.</string>
+    <string name="import_failed">해당 파일에서 집안일을 읽을 수 없습니다</string>
+    <string name="resume">재개</string>
+    <string name="paused_until">%1$s까지 일시중지</string>
+    <string name="paused_toast">1시간 동안 일시중지합니다. %1$s에 집안일이 재개됩니다.</string>
+    <string name="shortcut_test">지금 테스트</string>
+    <string name="shortcut_pause">1시간 일시중지</string>
+    <string name="shortcut_pause_long">집안일을 1시간 동안 일시중지</string>
+    <string name="shortcut_add">집안일 추가</string>
+    <string name="chore_deleted">집안일을 삭제했습니다</string>
+    <string name="undo">실행 취소</string>
+    <string name="unit_seconds">초</string>
+    <string name="unit_seconds_desc">초</string>
+    <string name="remove_chore_desc">집안일 삭제</string>
+    <string name="day_on">사용</string>
+    <string name="day_off">사용 안 함</string>
+    <string-array name="days_full">
+        <item>월요일</item>
+        <item>화요일</item>
+        <item>수요일</item>
+        <item>목요일</item>
+        <item>금요일</item>
+        <item>토요일</item>
+        <item>일요일</item>
+    </string-array>
+    <string name="chores_per_day">하루 집안일 수</string>
+    <string name="active_from">시작 시간</string>
+    <string name="active_until">종료 시간</string>
+    <string name="active_days">사용 요일</string>
+    <string name="sound_vibration">소리 및 진동</string>
+    <string name="save">저장 및 일정 등록</string>
+    <string name="test_now">지금 테스트(10초 집안일)</string>
+    <string name="test_chore">테스트 집안일</string>
+    <string name="stop">모두 중지</string>
+    <plurals name="saved_toast">
+        <item quantity="other">저장했습니다. 하루 %1$d개, %2$s ~ %3$s</item>
+    </plurals>
+    <string name="stop_confirm_title">모두 중지할까요?</string>
+    <string name="stop_confirm_message">예정된 모든 집안일과 진행 중인 집안일이 취소됩니다. 다시 시작하려면 저장 및 일정 등록을 누르세요.</string>
+    <string name="stop_confirm_yes">중지</string>
+    <string name="stopped">중지됨</string>
+    <string-array name="days_short">
+        <item>월</item>
+        <item>화</item>
+        <item>수</item>
+        <item>목</item>
+        <item>금</item>
+        <item>토</item>
+        <item>일</item>
+    </string-array>
+    <string name="do_it_now">지금 하세요</string>
+    <string name="start">시작</string>
+    <string name="done">완료 ✔</string>
+    <string name="nice_done">좋아요, 완료 ✔</string>
+    <string name="too_early">너무 일러요</string>
+    <string name="snooze">지금은 정말 안 돼요</string>
+    <string name="snoozed">알겠어요, 10분 뒤에 다시</string>
+    <string name="seconds_fmt">%1$d초</string>
+    <string name="hint_start">시작할 때 시작을 누르세요</string>
+    <string name="hint_keep_going">계속하세요</string>
+    <string name="hint_times_up">시간이 다 됐어요. 하셨나요?</string>
+    <string name="skip">다른 걸로 주세요</string>
+    <string name="no_other_chore">목록에 다른 집안일이 없습니다</string>
+    <string-array name="praise">
+        <item>좋아요!</item>
+        <item>잘했어요!</item>
+        <item>해냈어요!</item>
+        <item>바로 그거예요!</item>
+        <item>대단해요!</item>
+    </string-array>
+    <string name="channel_alert">집안일 알림</string>
+    <string name="channel_quiet">집안일 카운트다운</string>
+    <string name="notif_title">지금 하세요</string>
+    <string name="notif_start_text">%1$s. 시작을 누르고 %2$d초 동안 하세요</string>
+    <string name="notif_countdown_text">%1$s. 타이머가 끝나면 완료를 누를 수 있습니다</string>
+    <string name="notif_ready_text">%1$s. 끝나면 완료를 누르세요</string>
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">随机家务提醒</string>
+    <string name="title_main">随机家务
+提醒</string>
+    <string name="subtitle">小任务，大动力。</string>
+    <string name="section_setup">完成设置</string>
+    <string name="section_chores">家务</string>
+    <string name="section_schedule">日程</string>
+    <string name="next_chore">下一项家务：%1$s</string>
+    <string name="nothing_scheduled">暂无安排</string>
+    <string name="today">今天</string>
+    <string name="tomorrow">明天</string>
+    <plurals name="stat_today">
+        <item quantity="other">今天已完成 %1$d 项</item>
+    </plurals>
+    <string name="stat_streak">连续 %1$d 天</string>
+    <string name="setup_overlay">自动打开家务</string>
+    <string name="setup_battery">保持闹钟可靠</string>
+    <string name="fix">修复</string>
+    <string name="hint_chore">你要做什么？</string>
+    <string name="add_chore">+  添加家务</string>
+    <string name="export_chores">导出</string>
+    <string name="import_chores">导入</string>
+    <string name="exported">家务已导出</string>
+    <plurals name="imported">
+        <item quantity="other">已导入 %1$d 项家务。点按“保存并安排”以保留。</item>
+    </plurals>
+    <string name="export_failed">无法保存家务文件</string>
+    <string name="schedule_restored">检测到错过的提醒，日程已恢复。</string>
+    <string name="import_failed">无法从该文件读取任何家务</string>
+    <string name="resume">继续</string>
+    <string name="paused_until">已暂停至 %1$s</string>
+    <string name="paused_toast">已暂停 1 小时。家务将在 %1$s 恢复。</string>
+    <string name="shortcut_test">立即测试</string>
+    <string name="shortcut_pause">暂停 1 小时</string>
+    <string name="shortcut_pause_long">暂停家务 1 小时</string>
+    <string name="shortcut_add">添加家务</string>
+    <string name="chore_deleted">家务已删除</string>
+    <string name="undo">撤销</string>
+    <string name="unit_seconds">秒</string>
+    <string name="unit_seconds_desc">秒</string>
+    <string name="remove_chore_desc">删除家务</string>
+    <string name="day_on">已启用</string>
+    <string name="day_off">未启用</string>
+    <string-array name="days_full">
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+        <item>星期日</item>
+    </string-array>
+    <string name="chores_per_day">每天家务数</string>
+    <string name="active_from">开始时间</string>
+    <string name="active_until">结束时间</string>
+    <string name="active_days">启用的日子</string>
+    <string name="sound_vibration">声音和振动</string>
+    <string name="save">保存并安排</string>
+    <string name="test_now">立即测试（10 秒家务）</string>
+    <string name="test_chore">测试家务</string>
+    <string name="stop">全部停止</string>
+    <plurals name="saved_toast">
+        <item quantity="other">已保存。每天 %1$d 项家务，%2$s 至 %3$s</item>
+    </plurals>
+    <string name="stop_confirm_title">全部停止？</string>
+    <string name="stop_confirm_message">这将取消所有已安排的家务和正在进行的家务。点按“保存并安排”可重新开始。</string>
+    <string name="stop_confirm_yes">停止</string>
+    <string name="stopped">已停止</string>
+    <string-array name="days_short">
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+        <item>日</item>
+    </string-array>
+    <string name="do_it_now">马上去做</string>
+    <string name="start">开始</string>
+    <string name="done">完成 ✔</string>
+    <string name="nice_done">太好了，完成 ✔</string>
+    <string name="too_early">太早了</string>
+    <string name="snooze">现在真的不行</string>
+    <string name="snoozed">好的，10 分钟后再来</string>
+    <string name="seconds_fmt">%1$d 秒</string>
+    <string name="hint_start">开始时请点按“开始”</string>
+    <string name="hint_keep_going">继续加油</string>
+    <string name="hint_times_up">时间到。你完成了吗？</string>
+    <string name="skip">换一个</string>
+    <string name="no_other_chore">列表中没有其他家务</string>
+    <string-array name="praise">
+        <item>不错！</item>
+        <item>做得好！</item>
+        <item>搞定！</item>
+        <item>就是这样！</item>
+        <item>太棒了！</item>
+    </string-array>
+    <string name="channel_alert">家务提醒</string>
+    <string name="channel_quiet">家务倒计时</string>
+    <string name="notif_title">现在就做</string>
+    <string name="notif_start_text">%1$s。点按“开始”，然后做 %2$d 秒</string>
+    <string name="notif_countdown_text">%1$s。计时结束后“完成”才可点按</string>
+    <string name="notif_ready_text">%1$s。完成后请点按“完成”</string>
+</resources>

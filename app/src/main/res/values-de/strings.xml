@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zufällige Aufgabenerinnerung</string>
+    <string name="title_main">Zufällige
+Aufgabenerinnerung</string>
+    <string name="subtitle">Kleine Aufgaben, große Wirkung.</string>
+    <string name="section_setup">Einrichtung abschließen</string>
+    <string name="section_chores">Aufgaben</string>
+    <string name="section_schedule">Zeitplan</string>
+    <string name="next_chore">Nächste Aufgabe: %1$s</string>
+    <string name="nothing_scheduled">nichts geplant</string>
+    <string name="today">Heute</string>
+    <string name="tomorrow">Morgen</string>
+    <plurals name="stat_today">
+        <item quantity="one">%1$d heute erledigt</item>
+        <item quantity="other">%1$d heute erledigt</item>
+    </plurals>
+    <string name="stat_streak">%1$d Tage am Stück</string>
+    <string name="setup_overlay">Aufgaben automatisch öffnen</string>
+    <string name="setup_battery">Alarme zuverlässig halten</string>
+    <string name="fix">Beheben</string>
+    <string name="hint_chore">Was sollst du tun?</string>
+    <string name="add_chore">+  Aufgabe hinzufügen</string>
+    <string name="export_chores">Exportieren</string>
+    <string name="import_chores">Importieren</string>
+    <string name="exported">Aufgaben exportiert</string>
+    <plurals name="imported">
+        <item quantity="one">%1$d Aufgabe importiert. Tippe auf Speichern &amp; planen, um sie zu behalten.</item>
+        <item quantity="other">%1$d Aufgaben importiert. Tippe auf Speichern &amp; planen, um sie zu behalten.</item>
+    </plurals>
+    <string name="export_failed">Aufgabendatei konnte nicht gespeichert werden</string>
+    <string name="schedule_restored">Eine verpasste Erinnerung wurde erkannt. Zeitplan wiederhergestellt.</string>
+    <string name="import_failed">In dieser Datei wurden keine Aufgaben gefunden</string>
+    <string name="resume">Fortsetzen</string>
+    <string name="paused_until">Pausiert bis %1$s</string>
+    <string name="paused_toast">1 Stunde pausiert. Aufgaben laufen ab %1$s weiter.</string>
+    <string name="shortcut_test">Jetzt testen</string>
+    <string name="shortcut_pause">1 Stunde pausieren</string>
+    <string name="shortcut_pause_long">Aufgaben für 1 Stunde pausieren</string>
+    <string name="shortcut_add">Aufgabe hinzufügen</string>
+    <string name="chore_deleted">Aufgabe gelöscht</string>
+    <string name="undo">RÜCKGÄNGIG</string>
+    <string name="unit_seconds">s</string>
+    <string name="unit_seconds_desc">Sekunden</string>
+    <string name="remove_chore_desc">Aufgabe löschen</string>
+    <string name="day_on">Aktiv</string>
+    <string name="day_off">Nicht aktiv</string>
+    <string-array name="days_full">
+        <item>Montag</item>
+        <item>Dienstag</item>
+        <item>Mittwoch</item>
+        <item>Donnerstag</item>
+        <item>Freitag</item>
+        <item>Samstag</item>
+        <item>Sonntag</item>
+    </string-array>
+    <string name="chores_per_day">Aufgaben pro Tag</string>
+    <string name="active_from">Aktiv ab</string>
+    <string name="active_until">Aktiv bis</string>
+    <string name="active_days">Aktive Tage</string>
+    <string name="sound_vibration">Ton &amp; Vibration</string>
+    <string name="save">Speichern &amp; planen</string>
+    <string name="test_now">Jetzt testen (10-s-Aufgabe)</string>
+    <string name="test_chore">Testaufgabe</string>
+    <string name="stop">Alles stoppen</string>
+    <plurals name="saved_toast">
+        <item quantity="one">Gespeichert. %1$d Aufgabe pro Tag, %2$s bis %3$s</item>
+        <item quantity="other">Gespeichert. %1$d Aufgaben pro Tag, %2$s bis %3$s</item>
+    </plurals>
+    <string name="stop_confirm_title">Alles stoppen?</string>
+    <string name="stop_confirm_message">Dadurch werden alle geplanten Aufgaben und die laufende Aufgabe abgebrochen. Tippe auf Speichern &amp; planen, um neu zu starten.</string>
+    <string name="stop_confirm_yes">Stoppen</string>
+    <string name="stopped">Gestoppt</string>
+    <string-array name="days_short">
+        <item>M</item>
+        <item>D</item>
+        <item>M</item>
+        <item>D</item>
+        <item>F</item>
+        <item>S</item>
+        <item>S</item>
+    </string-array>
+    <string name="do_it_now">MACH ES JETZT</string>
+    <string name="start">Start</string>
+    <string name="done">Erledigt ✔</string>
+    <string name="nice_done">Super, erledigt ✔</string>
+    <string name="too_early">Zu früh</string>
+    <string name="snooze">Gerade wirklich nicht</string>
+    <string name="snoozed">OK, in 10 Min. wieder</string>
+    <string name="seconds_fmt">%1$d s</string>
+    <string name="hint_start">Tippe auf Start, wenn du anfängst</string>
+    <string name="hint_keep_going">Weiter so</string>
+    <string name="hint_times_up">Die Zeit ist um. Hast du es gemacht?</string>
+    <string name="skip">Gib mir eine andere</string>
+    <string name="no_other_chore">Keine andere Aufgabe in deiner Liste</string>
+    <string-array name="praise">
+        <item>Super!</item>
+        <item>Gut gemacht!</item>
+        <item>Geschafft!</item>
+        <item>So ist es richtig!</item>
+        <item>Stark!</item>
+    </string-array>
+    <string name="channel_alert">Aufgabenerinnerungen</string>
+    <string name="channel_quiet">Aufgaben-Countdown</string>
+    <string name="notif_title">Jetzt erledigen</string>
+    <string name="notif_start_text">%1$s. Tippe auf Start und mach es %2$d s lang</string>
+    <string name="notif_countdown_text">%1$s. Erledigt wird freigeschaltet, wenn der Timer endet</string>
+    <string name="notif_ready_text">%1$s. Tippe auf Erledigt, wenn du fertig bist</string>
+</resources>

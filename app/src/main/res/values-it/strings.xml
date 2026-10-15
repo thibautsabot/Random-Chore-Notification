@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Notifica di faccenda casuale</string>
+    <string name="title_main">Notifica di
+faccenda casuale</string>
+    <string name="subtitle">Piccoli compiti, grandi spinte.</string>
+    <string name="section_setup">Completa la configurazione</string>
+    <string name="section_chores">Faccende</string>
+    <string name="section_schedule">Programma</string>
+    <string name="next_chore">Prossima faccenda: %1$s</string>
+    <string name="nothing_scheduled">niente in programma</string>
+    <string name="today">Oggi</string>
+    <string name="tomorrow">Domani</string>
+    <plurals name="stat_today">
+        <item quantity="one">%1$d fatta oggi</item>
+        <item quantity="many">%1$d fatte oggi</item>
+        <item quantity="other">%1$d fatte oggi</item>
+    </plurals>
+    <string name="stat_streak">Serie di %1$d giorni</string>
+    <string name="setup_overlay">Apri le faccende automaticamente</string>
+    <string name="setup_battery">Mantieni affidabili gli allarmi</string>
+    <string name="fix">Risolvi</string>
+    <string name="hint_chore">Cosa devi fare?</string>
+    <string name="add_chore">+  Aggiungi faccenda</string>
+    <string name="export_chores">Esporta</string>
+    <string name="import_chores">Importa</string>
+    <string name="exported">Faccende esportate</string>
+    <plurals name="imported">
+        <item quantity="one">%1$d faccenda importata. Tocca Salva e pianifica per conservarla.</item>
+        <item quantity="many">%1$d faccende importate. Tocca Salva e pianifica per conservarle.</item>
+        <item quantity="other">%1$d faccende importate. Tocca Salva e pianifica per conservarle.</item>
+    </plurals>
+    <string name="export_failed">Impossibile salvare il file delle faccende</string>
+    <string name="schedule_restored">Rilevato un promemoria perso. Programma ripristinato.</string>
+    <string name="import_failed">Impossibile leggere faccende da quel file</string>
+    <string name="resume">Riprendi</string>
+    <string name="paused_until">In pausa fino alle %1$s</string>
+    <string name="paused_toast">In pausa per 1 ora. Le faccende riprendono alle %1$s.</string>
+    <string name="shortcut_test">Prova ora</string>
+    <string name="shortcut_pause">Pausa di 1 ora</string>
+    <string name="shortcut_pause_long">Metti in pausa le faccende per 1 ora</string>
+    <string name="shortcut_add">Aggiungi faccenda</string>
+    <string name="chore_deleted">Faccenda eliminata</string>
+    <string name="undo">ANNULLA</string>
+    <string name="unit_seconds">s</string>
+    <string name="unit_seconds_desc">secondi</string>
+    <string name="remove_chore_desc">Elimina faccenda</string>
+    <string name="day_on">Attivo</string>
+    <string name="day_off">Non attivo</string>
+    <string-array name="days_full">
+        <item>Lunedì</item>
+        <item>Martedì</item>
+        <item>Mercoledì</item>
+        <item>Giovedì</item>
+        <item>Venerdì</item>
+        <item>Sabato</item>
+        <item>Domenica</item>
+    </string-array>
+    <string name="chores_per_day">Faccende al giorno</string>
+    <string name="active_from">Attivo dalle</string>
+    <string name="active_until">Attivo fino alle</string>
+    <string name="active_days">Giorni attivi</string>
+    <string name="sound_vibration">Suono e vibrazione</string>
+    <string name="save">Salva e pianifica</string>
+    <string name="test_now">Prova ora (faccenda da 10 s)</string>
+    <string name="test_chore">Faccenda di prova</string>
+    <string name="stop">Ferma tutto</string>
+    <plurals name="saved_toast">
+        <item quantity="one">Salvato. %1$d faccenda al giorno, dalle %2$s alle %3$s</item>
+        <item quantity="many">Salvato. %1$d faccende al giorno, dalle %2$s alle %3$s</item>
+        <item quantity="other">Salvato. %1$d faccende al giorno, dalle %2$s alle %3$s</item>
+    </plurals>
+    <string name="stop_confirm_title">Fermare tutto?</string>
+    <string name="stop_confirm_message">Questo annulla tutte le faccende pianificate e quella in corso. Tocca Salva e pianifica per ricominciare.</string>
+    <string name="stop_confirm_yes">Ferma</string>
+    <string name="stopped">Fermato</string>
+    <string-array name="days_short">
+        <item>L</item>
+        <item>M</item>
+        <item>M</item>
+        <item>G</item>
+        <item>V</item>
+        <item>S</item>
+        <item>D</item>
+    </string-array>
+    <string name="do_it_now">FALLO ORA</string>
+    <string name="start">Inizia</string>
+    <string name="done">Fatto ✔</string>
+    <string name="nice_done">Bene, fatto ✔</string>
+    <string name="too_early">Troppo presto</string>
+    <string name="snooze">Ora proprio non posso</string>
+    <string name="snoozed">OK, tra 10 min</string>
+    <string name="seconds_fmt">%1$d s</string>
+    <string name="hint_start">Tocca Inizia quando cominci</string>
+    <string name="hint_keep_going">Continua così</string>
+    <string name="hint_times_up">Tempo scaduto. L’hai fatto?</string>
+    <string name="skip">Dammene un’altra</string>
+    <string name="no_other_chore">Nessun’altra faccenda nella tua lista</string>
+    <string-array name="praise">
+        <item>Bene!</item>
+        <item>Ben fatto!</item>
+        <item>Centrato!</item>
+        <item>Questo è lo spirito!</item>
+        <item>Grande!</item>
+    </string-array>
+    <string name="channel_alert">Promemoria delle faccende</string>
+    <string name="channel_quiet">Conto alla rovescia della faccenda</string>
+    <string name="notif_title">Fallo ora</string>
+    <string name="notif_start_text">%1$s. Tocca Inizia, poi fallo per %2$d s</string>
+    <string name="notif_countdown_text">%1$s. Fatto si sblocca quando il timer finisce</string>
+    <string name="notif_ready_text">%1$s. Tocca Fatto quando hai finito</string>
+</resources>

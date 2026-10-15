@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="test"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_media_play"
+        android:shortcutShortLabel="@string/shortcut_test">
+        <intent
+            android:action="app.randomchorenotification.SHORTCUT_TEST"
+            android:targetClass="app.randomchorenotification.MainActivity"
+            android:targetPackage="app.randomchorenotification" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="pause"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_media_pause"
+        android:shortcutShortLabel="@string/shortcut_pause"
+        android:shortcutLongLabel="@string/shortcut_pause_long">
+        <intent
+            android:action="app.randomchorenotification.SHORTCUT_PAUSE"
+            android:targetClass="app.randomchorenotification.MainActivity"
+            android:targetPackage="app.randomchorenotification" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="add"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_input_add"
+        android:shortcutShortLabel="@string/shortcut_add">
+        <intent
+            android:action="app.randomchorenotification.SHORTCUT_ADD"
+            android:targetClass="app.randomchorenotification.MainActivity"
+            android:targetPackage="app.randomchorenotification" />
+    </shortcut>
+</shortcuts>

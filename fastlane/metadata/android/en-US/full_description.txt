@@ -1,0 +1,12 @@
+Random Chore Notification picks a small chore from your own list and nags you to do it at random moments during the day.
+
+• Build your own chore list and set how many chores you get per day
+• Choose the active hours and active days
+• Full-screen chore prompt with a Start button and a countdown, so "Done" only unlocks once you've really spent the time
+• Skip to another chore, or snooze for 10 minutes
+• Track chores done today and your daily streak
+• Pause for one hour from a launcher shortcut
+• Export and import your chore list
+• Works offline: no account, no ads, no tracking, no internet permission
+
+Because reminders have to show up on time and open on their own, the app asks for exact alarms, full-screen notifications, display over other apps, and an exemption from battery optimization. You can grant them from the "Finish setup" section.

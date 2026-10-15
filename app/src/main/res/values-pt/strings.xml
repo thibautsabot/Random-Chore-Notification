@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Notificação de tarefa aleatória</string>
+    <string name="title_main">Notificação de
+tarefa aleatória</string>
+    <string name="subtitle">Pequenas tarefas, grandes empurrões.</string>
+    <string name="section_setup">Concluir a configuração</string>
+    <string name="section_chores">Tarefas</string>
+    <string name="section_schedule">Horário</string>
+    <string name="next_chore">Próxima tarefa: %1$s</string>
+    <string name="nothing_scheduled">nada agendado</string>
+    <string name="today">Hoje</string>
+    <string name="tomorrow">Amanhã</string>
+    <plurals name="stat_today">
+        <item quantity="one">%1$d feita hoje</item>
+        <item quantity="many">%1$d feitas hoje</item>
+        <item quantity="other">%1$d feitas hoje</item>
+    </plurals>
+    <string name="stat_streak">Sequência de %1$d dias</string>
+    <string name="setup_overlay">Abrir as tarefas automaticamente</string>
+    <string name="setup_battery">Manter os alarmes confiáveis</string>
+    <string name="fix">Corrigir</string>
+    <string name="hint_chore">O que você deve fazer?</string>
+    <string name="add_chore">+  Adicionar tarefa</string>
+    <string name="export_chores">Exportar</string>
+    <string name="import_chores">Importar</string>
+    <string name="exported">Tarefas exportadas</string>
+    <plurals name="imported">
+        <item quantity="one">%1$d tarefa importada. Toque em Salvar e agendar para mantê-la.</item>
+        <item quantity="many">%1$d tarefas importadas. Toque em Salvar e agendar para mantê-las.</item>
+        <item quantity="other">%1$d tarefas importadas. Toque em Salvar e agendar para mantê-las.</item>
+    </plurals>
+    <string name="export_failed">Não foi possível salvar o arquivo de tarefas</string>
+    <string name="schedule_restored">Um lembrete perdido foi detectado. Horário restaurado.</string>
+    <string name="import_failed">Não foi possível ler nenhuma tarefa desse arquivo</string>
+    <string name="resume">Retomar</string>
+    <string name="paused_until">Pausado até %1$s</string>
+    <string name="paused_toast">Pausado por 1 hora. As tarefas retomam às %1$s.</string>
+    <string name="shortcut_test">Testar agora</string>
+    <string name="shortcut_pause">Pausar 1 hora</string>
+    <string name="shortcut_pause_long">Pausar as tarefas por 1 hora</string>
+    <string name="shortcut_add">Adicionar tarefa</string>
+    <string name="chore_deleted">Tarefa excluída</string>
+    <string name="undo">DESFAZER</string>
+    <string name="unit_seconds">s</string>
+    <string name="unit_seconds_desc">segundos</string>
+    <string name="remove_chore_desc">Excluir tarefa</string>
+    <string name="day_on">Ativo</string>
+    <string name="day_off">Inativo</string>
+    <string-array name="days_full">
+        <item>Segunda-feira</item>
+        <item>Terça-feira</item>
+        <item>Quarta-feira</item>
+        <item>Quinta-feira</item>
+        <item>Sexta-feira</item>
+        <item>Sábado</item>
+        <item>Domingo</item>
+    </string-array>
+    <string name="chores_per_day">Tarefas por dia</string>
+    <string name="active_from">Ativo a partir de</string>
+    <string name="active_until">Ativo até</string>
+    <string name="active_days">Dias ativos</string>
+    <string name="sound_vibration">Som e vibração</string>
+    <string name="save">Salvar e agendar</string>
+    <string name="test_now">Testar agora (tarefa de 10 s)</string>
+    <string name="test_chore">Tarefa de teste</string>
+    <string name="stop">Parar tudo</string>
+    <plurals name="saved_toast">
+        <item quantity="one">Salvo. %1$d tarefa por dia, de %2$s às %3$s</item>
+        <item quantity="many">Salvo. %1$d tarefas por dia, de %2$s às %3$s</item>
+        <item quantity="other">Salvo. %1$d tarefas por dia, de %2$s às %3$s</item>
+    </plurals>
+    <string name="stop_confirm_title">Parar tudo?</string>
+    <string name="stop_confirm_message">Isso cancela todas as tarefas agendadas e a que está em andamento. Toque em Salvar e agendar para recomeçar.</string>
+    <string name="stop_confirm_yes">Parar</string>
+    <string name="stopped">Parado</string>
+    <string-array name="days_short">
+        <item>S</item>
+        <item>T</item>
+        <item>Q</item>
+        <item>Q</item>
+        <item>S</item>
+        <item>S</item>
+        <item>D</item>
+    </string-array>
+    <string name="do_it_now">FAÇA AGORA</string>
+    <string name="start">Começar</string>
+    <string name="done">Feito ✔</string>
+    <string name="nice_done">Boa, feito ✔</string>
+    <string name="too_early">Cedo demais</string>
+    <string name="snooze">Agora realmente não dá</string>
+    <string name="snoozed">Ok, volto em 10 min</string>
+    <string name="seconds_fmt">%1$d s</string>
+    <string name="hint_start">Toque em Começar quando iniciar</string>
+    <string name="hint_keep_going">Continue</string>
+    <string name="hint_times_up">O tempo acabou. Você fez?</string>
+    <string name="skip">Me dê outra</string>
+    <string name="no_other_chore">Nenhuma outra tarefa na sua lista</string>
+    <string-array name="praise">
+        <item>Legal!</item>
+        <item>Muito bem!</item>
+        <item>Mandou bem!</item>
+        <item>É isso aí!</item>
+        <item>Arrasou!</item>
+    </string-array>
+    <string name="channel_alert">Lembretes de tarefas</string>
+    <string name="channel_quiet">Contagem regressiva da tarefa</string>
+    <string name="notif_title">Faça agora</string>
+    <string name="notif_start_text">%1$s. Toque em Começar e faça por %2$d s</string>
+    <string name="notif_countdown_text">%1$s. Feito é liberado quando o cronômetro terminar</string>
+    <string name="notif_ready_text">%1$s. Toque em Feito quando terminar</string>
+</resources>

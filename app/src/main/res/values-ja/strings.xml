@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ランダム家事通知</string>
+    <string name="title_main">ランダム
+家事通知</string>
+    <string name="subtitle">小さなタスクで、大きな一歩。</string>
+    <string name="section_setup">セットアップを完了</string>
+    <string name="section_chores">家事</string>
+    <string name="section_schedule">スケジュール</string>
+    <string name="next_chore">次の家事：%1$s</string>
+    <string name="nothing_scheduled">予定なし</string>
+    <string name="today">今日</string>
+    <string name="tomorrow">明日</string>
+    <plurals name="stat_today">
+        <item quantity="other">今日 %1$d 件完了</item>
+    </plurals>
+    <string name="stat_streak">%1$d日連続</string>
+    <string name="setup_overlay">家事を自動で開く</string>
+    <string name="setup_battery">アラームを確実に動作させる</string>
+    <string name="fix">修正</string>
+    <string name="hint_chore">何をしますか？</string>
+    <string name="add_chore">+  家事を追加</string>
+    <string name="export_chores">エクスポート</string>
+    <string name="import_chores">インポート</string>
+    <string name="exported">家事をエクスポートしました</string>
+    <plurals name="imported">
+        <item quantity="other">%1$d 件の家事をインポートしました。保持するには「保存してスケジュール」をタップしてください。</item>
+    </plurals>
+    <string name="export_failed">家事ファイルを保存できませんでした</string>
+    <string name="schedule_restored">見逃したリマインダーを検出しました。スケジュールを復元しました。</string>
+    <string name="import_failed">そのファイルから家事を読み取れませんでした</string>
+    <string name="resume">再開</string>
+    <string name="paused_until">%1$s まで一時停止中</string>
+    <string name="paused_toast">1時間一時停止します。%1$s に家事を再開します。</string>
+    <string name="shortcut_test">今すぐテスト</string>
+    <string name="shortcut_pause">1時間停止</string>
+    <string name="shortcut_pause_long">家事を1時間停止</string>
+    <string name="shortcut_add">家事を追加</string>
+    <string name="chore_deleted">家事を削除しました</string>
+    <string name="undo">元に戻す</string>
+    <string name="unit_seconds">秒</string>
+    <string name="unit_seconds_desc">秒</string>
+    <string name="remove_chore_desc">家事を削除</string>
+    <string name="day_on">有効</string>
+    <string name="day_off">無効</string>
+    <string-array name="days_full">
+        <item>月曜日</item>
+        <item>火曜日</item>
+        <item>水曜日</item>
+        <item>木曜日</item>
+        <item>金曜日</item>
+        <item>土曜日</item>
+        <item>日曜日</item>
+    </string-array>
+    <string name="chores_per_day">1日の家事の数</string>
+    <string name="active_from">開始時刻</string>
+    <string name="active_until">終了時刻</string>
+    <string name="active_days">有効な曜日</string>
+    <string name="sound_vibration">サウンドとバイブレーション</string>
+    <string name="save">保存してスケジュール</string>
+    <string name="test_now">今すぐテスト（10秒の家事）</string>
+    <string name="test_chore">テスト用の家事</string>
+    <string name="stop">すべて停止</string>
+    <plurals name="saved_toast">
+        <item quantity="other">保存しました。1日 %1$d 件、%2$s〜%3$s</item>
+    </plurals>
+    <string name="stop_confirm_title">すべて停止しますか？</string>
+    <string name="stop_confirm_message">予定されているすべての家事と進行中の家事がキャンセルされます。再開するには「保存してスケジュール」をタップしてください。</string>
+    <string name="stop_confirm_yes">停止</string>
+    <string name="stopped">停止しました</string>
+    <string-array name="days_short">
+        <item>月</item>
+        <item>火</item>
+        <item>水</item>
+        <item>木</item>
+        <item>金</item>
+        <item>土</item>
+        <item>日</item>
+    </string-array>
+    <string name="do_it_now">今すぐやろう</string>
+    <string name="start">開始</string>
+    <string name="done">完了 ✔</string>
+    <string name="nice_done">いいね、完了 ✔</string>
+    <string name="too_early">まだ早いです</string>
+    <string name="snooze">今は本当に無理です</string>
+    <string name="snoozed">わかりました、10分後にまた</string>
+    <string name="seconds_fmt">%1$d秒</string>
+    <string name="hint_start">始めるときに「開始」をタップ</string>
+    <string name="hint_keep_going">その調子</string>
+    <string name="hint_times_up">時間です。できましたか？</string>
+    <string name="skip">別のものにする</string>
+    <string name="no_other_chore">リストに他の家事がありません</string>
+    <string-array name="praise">
+        <item>いいね！</item>
+        <item>よくできました！</item>
+        <item>バッチリ！</item>
+        <item>その調子！</item>
+        <item>最高！</item>
+    </string-array>
+    <string name="channel_alert">家事のリマインダー</string>
+    <string name="channel_quiet">家事のカウントダウン</string>
+    <string name="notif_title">今すぐやろう</string>
+    <string name="notif_start_text">%1$s。「開始」をタップして %2$d 秒間行いましょう</string>
+    <string name="notif_countdown_text">%1$s。タイマーが終わると「完了」が押せます</string>
+    <string name="notif_ready_text">%1$s。終わったら「完了」をタップ</string>
+</resources>
