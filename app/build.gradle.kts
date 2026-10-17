@@ -17,8 +17,8 @@ android {
         applicationId = "app.randomchorenotification"
         minSdk = 26
         targetSdk = 37
-        versionCode = 3
-        versionName = "1.0.2"
+        versionCode = 4
+        versionName = "1.0.3"
     }
 
     signingConfigs {
@@ -39,6 +39,12 @@ android {
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
             signingConfigs.findByName("release")?.let { signingConfig = it }
         }
+    }
+
+    // The dependency metadata blob is signed with a Google key and is not reproducible
+    dependenciesInfo {
+        includeInApk = false
+        includeInBundle = false
     }
 
     compileOptions {
