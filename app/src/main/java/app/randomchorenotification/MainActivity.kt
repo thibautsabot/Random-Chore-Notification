@@ -14,6 +14,8 @@ import android.os.Build
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import android.graphics.Rect
+import android.view.inputmethod.InputMethodManager
 import android.os.PowerManager
 import android.provider.Settings
 import android.text.InputType
@@ -28,6 +30,7 @@ import android.widget.Switch
 import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.ComponentActivity
+import androidx.activity.addCallback
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.net.toUri
 import androidx.core.view.ViewCompat
@@ -74,6 +77,7 @@ class MainActivity : ComponentActivity() {
     private lateinit var setupCard: LinearLayout
     private lateinit var undoBar: LinearLayout
     private var undoAction: (() -> Unit)? = null
+    private var savedChores = ""
     private val hideUndo = Runnable { dismissUndo() }
 
     private val exportLauncher =
@@ -93,6 +97,18 @@ class MainActivity : ComponentActivity() {
             checkSelfPermission(Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED
         ) {
             requestPermissions(arrayOf(Manifest.permission.POST_NOTIFICATIONS), 1)
+        }
+        onBackPressedDispatcher.addCallback(this) {
+            if (serializeChores() != savedChores) {
+                AlertDialog.Builder(this@MainActivity)
+                    .setTitle(R.string.unsaved_chores_title)
+                    .setMessage(R.string.unsaved_chores_message)
+                    .setPositiveButton(R.string.discard) { _, _ -> finish() }
+                    .setNegativeButton(android.R.string.cancel, null)
+                    .show()
+            } else {
+                finish()
+            }
         }
 
         val root = LinearLayout(this).apply {
@@ -132,9 +148,10 @@ class MainActivity : ComponentActivity() {
         choreList = LinearLayout(this).apply { orientation = LinearLayout.VERTICAL }
         root.addView(choreList)
         Store.chores(this).forEach { (t, s) -> addChoreRow(t, s) }
+        savedChores = serializeChores()
         root.addView(
             button(getString(R.string.add_chore), Color.TRANSPARENT, ACCENT, outline = true) {
-                addChoreRow("", 60, focus = true)
+                focusChoreName(addChoreRow("", 60, focus = true))
             }.apply { layoutParams = rowParams(top = 12) }
         )
         root.addView(LinearLayout(this).apply {
@@ -183,7 +200,8 @@ class MainActivity : ComponentActivity() {
             val n = (perDay.text.toString().toIntOrNull() ?: 2).coerceIn(1, Store.MAX_PER_DAY)
             perDay.setText(getString(R.string.number_fmt, n))
             dismissUndo()
-            Store.saveSettings(this, serializeChores(), n, s, e, daysMask, alert.isChecked)
+            savedChores = serializeChores()
+            Store.saveSettings(this, savedChores, n, s, e, daysMask, alert.isChecked)
             Scheduler.scheduleNextNag(this)
             refresh()
             Toast.makeText(this, resources.getQuantityString(R.plurals.saved_toast, n, n, fmt(s), fmt(e)), Toast.LENGTH_SHORT).show()
@@ -318,10 +336,7 @@ class MainActivity : ComponentActivity() {
                 refresh()
                 Toast.makeText(this, getString(R.string.paused_toast, clock(until)), Toast.LENGTH_LONG).show()
             }
-            ACTION_ADD -> {
-                addChoreRow("", 60, focus = true)
-                scroll.post { scroll.fullScroll(View.FOCUS_DOWN) }
-            }
+            ACTION_ADD -> focusChoreName(addChoreRow("", 60, focus = true))
             else -> return
         }
         i?.action = null // handle once, not again on rotation or resume
@@ -347,6 +362,13 @@ class MainActivity : ComponentActivity() {
         statsView.text = if (streak > 0) "$today  ·  ${getString(R.string.stat_streak, streak)}" else today
 
         setupCard.removeAllViews()
+        if (Build.VERSION.SDK_INT >= 33 &&
+            checkSelfPermission(Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED
+        ) {
+            setupCard.addView(setupRow(getString(R.string.setup_notifications)) {
+                requestPermissions(arrayOf(Manifest.permission.POST_NOTIFICATIONS), 1)
+            })
+        }
         if (!Settings.canDrawOverlays(this)) {
             setupCard.addView(setupRow(getString(R.string.setup_overlay)) {
                 startActivity(
@@ -404,7 +426,7 @@ class MainActivity : ComponentActivity() {
 
     // ---- chore list ----
 
-    private fun addChoreRow(chore: String, secs: Int, focus: Boolean = false) {
+    private fun addChoreRow(chore: String, secs: Int, focus: Boolean = false): EditText {
         val row = card(vertical = false).apply {
             gravity = Gravity.CENTER_VERTICAL
             setPaddingRelative(px(16), px(4), px(8), px(4))
@@ -452,6 +474,16 @@ class MainActivity : ComponentActivity() {
         row.layoutParams = rowParams(top = 8)
         choreList.addView(row)
         if (focus) name.requestFocus()
+        return name
+    }
+
+    private fun focusChoreName(name: EditText) {
+        name.post {
+            scroll.requestChildRectangleOnScreen(name, Rect(0, 0, name.width, name.height), true)
+            name.requestFocus()
+            (getSystemService(INPUT_METHOD_SERVICE) as InputMethodManager)
+                .showSoftInput(name, InputMethodManager.SHOW_IMPLICIT)
+        }
     }
 
     private fun showUndo(action: () -> Unit) {
