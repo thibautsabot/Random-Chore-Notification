@@ -17,8 +17,12 @@
         <item quantity="other">%1$d done today</item>
     </plurals>
     <string name="stat_streak">%1$d-day streak</string>
+    <string name="setup_notifications">Allow chore notifications</string>
     <string name="setup_overlay">Open chores automatically</string>
     <string name="setup_battery">Keep alarms reliable</string>
+    <string name="unsaved_chores_title">Discard chore changes?</string>
+    <string name="unsaved_chores_message">Your chore list has unsaved changes. Leave without saving?</string>
+    <string name="discard">Discard</string>
     <string name="fix">Fix</string>
     <string name="hint_chore">What should you do?</string>
     <string name="add_chore">+  Add chore</string>

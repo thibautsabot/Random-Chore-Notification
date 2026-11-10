@@ -1,0 +1,4 @@
+Fix duplicate chore screens after relaunch and snoozing.
+Show a setup hint when notifications are disabled.
+Warn before discarding unsaved chore list changes.
+Scroll to the chore name field when adding a chore to a long list.

@@ -40,7 +40,8 @@
 
         <activity
             android:name=".ChoreActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:launchMode="singleTop" />
 
         <receiver
             android:name=".NagReceiver"

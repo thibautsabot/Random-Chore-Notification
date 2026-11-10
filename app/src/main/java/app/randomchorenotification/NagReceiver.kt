@@ -39,7 +39,12 @@ class NagReceiver : BroadcastReceiver() {
             Scheduler.ACTION_RELAUNCH -> {
                 if (Store.pending(c)) {
                     c.startActivity(
-                        Intent(c, ChoreActivity::class.java).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                        Intent(c, ChoreActivity::class.java)
+                            .addFlags(
+                                Intent.FLAG_ACTIVITY_NEW_TASK or
+                                    Intent.FLAG_ACTIVITY_CLEAR_TOP or
+                                    Intent.FLAG_ACTIVITY_SINGLE_TOP
+                            )
                     )
                 }
             }
