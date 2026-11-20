@@ -17,8 +17,12 @@ corvée aléatoire</string>
         <item quantity="other">%1$d faites aujourd’hui</item>
     </plurals>
     <string name="stat_streak">Série de %1$d jours</string>
+    <string name="setup_notifications">Autoriser les notifications de corvées</string>
     <string name="setup_overlay">Ouvrir les corvées automatiquement</string>
     <string name="setup_battery">Garder les alarmes fiables</string>
+    <string name="unsaved_changes_title">Abandonner les modifications ?</string>
+    <string name="unsaved_changes_message">Vous avez des modifications non enregistrées. Quitter sans enregistrer ?</string>
+    <string name="discard">Abandonner</string>
     <string name="fix">Corriger</string>
     <string name="hint_chore">Que devez-vous faire ?</string>
     <string name="add_chore">+  Ajouter une corvée</string>

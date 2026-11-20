@@ -17,8 +17,12 @@ faccenda casuale</string>
         <item quantity="other">%1$d fatte oggi</item>
     </plurals>
     <string name="stat_streak">Serie di %1$d giorni</string>
+    <string name="setup_notifications">Consenti le notifiche delle faccende</string>
     <string name="setup_overlay">Apri le faccende automaticamente</string>
     <string name="setup_battery">Mantieni affidabili gli allarmi</string>
+    <string name="unsaved_changes_title">Ignorare le modifiche?</string>
+    <string name="unsaved_changes_message">Hai modifiche non salvate. Uscire senza salvare?</string>
+    <string name="discard">Ignora</string>
     <string name="fix">Risolvi</string>
     <string name="hint_chore">Cosa devi fare?</string>
     <string name="add_chore">+  Aggiungi faccenda</string>

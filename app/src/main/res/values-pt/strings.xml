@@ -17,8 +17,12 @@ tarefa aleatória</string>
         <item quantity="other">%1$d feitas hoje</item>
     </plurals>
     <string name="stat_streak">Sequência de %1$d dias</string>
+    <string name="setup_notifications">Permitir notificações de tarefas</string>
     <string name="setup_overlay">Abrir as tarefas automaticamente</string>
     <string name="setup_battery">Manter os alarmes confiáveis</string>
+    <string name="unsaved_changes_title">Descartar as alterações?</string>
+    <string name="unsaved_changes_message">Você tem alterações não salvas. Sair sem salvar?</string>
+    <string name="discard">Descartar</string>
     <string name="fix">Corrigir</string>
     <string name="hint_chore">O que você deve fazer?</string>
     <string name="add_chore">+  Adicionar tarefa</string>

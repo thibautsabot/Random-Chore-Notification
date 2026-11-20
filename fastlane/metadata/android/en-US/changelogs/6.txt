@@ -1,0 +1,4 @@
+Open the app's notification settings when the notification permission can't be requested again.
+Warn before discarding unsaved schedule changes.
+Keep a newly added chore visible above the keyboard.
+Translate the setup hint and the discard dialog into every language.
