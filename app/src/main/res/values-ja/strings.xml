@@ -15,8 +15,12 @@
         <item quantity="other">今日 %1$d 件完了</item>
     </plurals>
     <string name="stat_streak">%1$d日連続</string>
+    <string name="setup_notifications">家事の通知を許可</string>
     <string name="setup_overlay">家事を自動で開く</string>
     <string name="setup_battery">アラームを確実に動作させる</string>
+    <string name="unsaved_changes_title">変更を破棄しますか？</string>
+    <string name="unsaved_changes_message">保存していない変更があります。保存せずに離れますか？</string>
+    <string name="discard">破棄</string>
     <string name="fix">修正</string>
     <string name="hint_chore">何をしますか？</string>
     <string name="add_chore">+  家事を追加</string>

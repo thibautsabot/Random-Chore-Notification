@@ -16,8 +16,12 @@
         <item quantity="other">आज %1$d पूरे हुए</item>
     </plurals>
     <string name="stat_streak">लगातार %1$d दिन</string>
+    <string name="setup_notifications">काम की सूचनाओं की अनुमति दें</string>
     <string name="setup_overlay">काम अपने आप खोलें</string>
     <string name="setup_battery">अलार्म भरोसेमंद रखें</string>
+    <string name="unsaved_changes_title">बदलाव छोड़ दें?</string>
+    <string name="unsaved_changes_message">आपके बदलाव सहेजे नहीं गए हैं। बिना सहेजे बाहर निकलें?</string>
+    <string name="discard">छोड़ें</string>
     <string name="fix">ठीक करें</string>
     <string name="hint_chore">आपको क्या करना है?</string>
     <string name="add_chore">+  काम जोड़ें</string>

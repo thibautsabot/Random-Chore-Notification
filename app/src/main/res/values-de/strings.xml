@@ -16,8 +16,12 @@ Aufgabenerinnerung</string>
         <item quantity="other">%1$d heute erledigt</item>
     </plurals>
     <string name="stat_streak">%1$d Tage am Stück</string>
+    <string name="setup_notifications">Aufgabenerinnerungen erlauben</string>
     <string name="setup_overlay">Aufgaben automatisch öffnen</string>
     <string name="setup_battery">Alarme zuverlässig halten</string>
+    <string name="unsaved_changes_title">Änderungen verwerfen?</string>
+    <string name="unsaved_changes_message">Du hast ungespeicherte Änderungen. Verlassen, ohne zu speichern?</string>
+    <string name="discard">Verwerfen</string>
     <string name="fix">Beheben</string>
     <string name="hint_chore">Was sollst du tun?</string>
     <string name="add_chore">+  Aufgabe hinzufügen</string>

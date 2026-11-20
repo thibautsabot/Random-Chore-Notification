@@ -18,8 +18,12 @@
         <item quantity="other">Сегодня выполнено: %1$d</item>
     </plurals>
     <string name="stat_streak">Серия: %1$d дн.</string>
+    <string name="setup_notifications">Разрешить уведомления о делах</string>
     <string name="setup_overlay">Открывать дела автоматически</string>
     <string name="setup_battery">Надёжная работа будильников</string>
+    <string name="unsaved_changes_title">Отменить изменения?</string>
+    <string name="unsaved_changes_message">У вас есть несохранённые изменения. Выйти без сохранения?</string>
+    <string name="discard">Отменить</string>
     <string name="fix">Исправить</string>
     <string name="hint_chore">Что нужно сделать?</string>
     <string name="add_chore">+  Добавить дело</string>
