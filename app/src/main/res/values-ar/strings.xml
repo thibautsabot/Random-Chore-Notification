@@ -20,8 +20,12 @@
         <item quantity="other">المنجز اليوم: %1$d</item>
     </plurals>
     <string name="stat_streak">تتابع %1$d أيام</string>
+    <string name="setup_notifications">السماح بإشعارات المهام</string>
     <string name="setup_overlay">فتح المهام تلقائيًا</string>
     <string name="setup_battery">إبقاء المنبهات موثوقة</string>
+    <string name="unsaved_changes_title">تجاهل التغييرات؟</string>
+    <string name="unsaved_changes_message">لديك تغييرات غير محفوظة. هل تريد المغادرة دون حفظ؟</string>
+    <string name="discard">تجاهل</string>
     <string name="fix">إصلاح</string>
     <string name="hint_chore">ماذا يجب أن تفعل؟</string>
     <string name="add_chore">+  إضافة مهمة</string>

@@ -32,6 +32,7 @@ import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.addCallback
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.core.app.ActivityCompat
 import androidx.core.net.toUri
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
@@ -78,6 +79,8 @@ class MainActivity : ComponentActivity() {
     private lateinit var undoBar: LinearLayout
     private var undoAction: (() -> Unit)? = null
     private var savedChores = ""
+    private var savedSchedule = ""
+    private var scheduleState: () -> String = { "" }
     private val hideUndo = Runnable { dismissUndo() }
 
     private val exportLauncher =
@@ -99,10 +102,10 @@ class MainActivity : ComponentActivity() {
             requestPermissions(arrayOf(Manifest.permission.POST_NOTIFICATIONS), 1)
         }
         onBackPressedDispatcher.addCallback(this) {
-            if (serializeChores() != savedChores) {
+            if (serializeChores() != savedChores || scheduleState() != savedSchedule) {
                 AlertDialog.Builder(this@MainActivity)
-                    .setTitle(R.string.unsaved_chores_title)
-                    .setMessage(R.string.unsaved_chores_message)
+                    .setTitle(R.string.unsaved_changes_title)
+                    .setMessage(R.string.unsaved_changes_message)
                     .setPositiveButton(R.string.discard) { _, _ -> finish() }
                     .setNegativeButton(android.R.string.cancel, null)
                     .show()
@@ -192,15 +195,23 @@ class MainActivity : ComponentActivity() {
             minHeight = px(48)
         }
         root.addView(card().apply { addView(settingRow(getString(R.string.sound_vibration), alert, "")) })
+        scheduleState = {
+            val s = startMin
+            val e = if (endMin <= s) (s + 60).coerceAtMost(24 * 60) else endMin
+            val n = (perDay.text.toString().toIntOrNull() ?: 2).coerceIn(1, Store.MAX_PER_DAY)
+            "$n;$s;$e;$daysMask;${alert.isChecked}"
+        }
+        savedSchedule = scheduleState()
 
         // ---- actions ----
         root.addView(button(getString(R.string.save), ACCENT, TEXT) {
+            dismissUndo()
+            savedChores = serializeChores()
             val s = startMin
             val e = if (endMin <= s) (s + 60).coerceAtMost(24 * 60) else endMin
             val n = (perDay.text.toString().toIntOrNull() ?: 2).coerceIn(1, Store.MAX_PER_DAY)
             perDay.setText(getString(R.string.number_fmt, n))
-            dismissUndo()
-            savedChores = serializeChores()
+            savedSchedule = scheduleState()
             Store.saveSettings(this, savedChores, n, s, e, daysMask, alert.isChecked)
             Scheduler.scheduleNextNag(this)
             refresh()
@@ -366,7 +377,12 @@ class MainActivity : ComponentActivity() {
             checkSelfPermission(Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED
         ) {
             setupCard.addView(setupRow(getString(R.string.setup_notifications)) {
-                requestPermissions(arrayOf(Manifest.permission.POST_NOTIFICATIONS), 1)
+                if (ActivityCompat.shouldShowRequestPermissionRationale(this, Manifest.permission.POST_NOTIFICATIONS)) {
+                    requestPermissions(arrayOf(Manifest.permission.POST_NOTIFICATIONS), 1)
+                } else {
+                    // "Don't ask again" (USER_FIXED): the dialog can't be shown, so open the app's settings.
+                    startActivity(Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS, "package:$packageName".toUri()))
+                }
             })
         }
         if (!Settings.canDrawOverlays(this)) {
@@ -483,6 +499,13 @@ class MainActivity : ComponentActivity() {
             name.requestFocus()
             (getSystemService(INPUT_METHOD_SERVICE) as InputMethodManager)
                 .showSoftInput(name, InputMethodManager.SHOW_IMPLICIT)
+        }
+        // The keyboard's inset arrives after the field is focused, so scroll again once it is applied.
+        ViewCompat.setOnApplyWindowInsetsListener(name) { v, insets ->
+            if (insets.isVisible(WindowInsetsCompat.Type.ime())) {
+                v.post { scroll.requestChildRectangleOnScreen(v, Rect(0, 0, v.width, v.height), true) }
+            }
+            insets
         }
     }
 

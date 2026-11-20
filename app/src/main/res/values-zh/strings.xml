@@ -15,8 +15,12 @@
         <item quantity="other">今天已完成 %1$d 项</item>
     </plurals>
     <string name="stat_streak">连续 %1$d 天</string>
+    <string name="setup_notifications">允许家务通知</string>
     <string name="setup_overlay">自动打开家务</string>
     <string name="setup_battery">保持闹钟可靠</string>
+    <string name="unsaved_changes_title">放弃更改？</string>
+    <string name="unsaved_changes_message">你有未保存的更改。不保存就离开吗？</string>
+    <string name="discard">放弃</string>
     <string name="fix">修复</string>
     <string name="hint_chore">你要做什么？</string>
     <string name="add_chore">+  添加家务</string>
